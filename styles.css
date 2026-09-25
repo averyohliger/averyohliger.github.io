@@ -111,11 +111,19 @@ footer {
     nav ul {
         justify-content: flex-start;
         flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 1rem;
     }
 
     img {
-        width: 100%;
-        max-width: 350px;
-        margin-top: 20px;
+        width: 220px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 20px auto;
+        display: block;
     }
 }
